@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="basic_info">
+        
+    </array>
+    <array name="basic_info_name">
+        <item>Name</item>
+        <item>@layout/text_item</item>
+    </array>
+    <array name="basic_info_player">
+        <item>Player</item>
+        <item>@layout/text_item</item>
+    </array>
+    <array name="basic_info_chronicle">
+        <item>Chronicle</item>
+        <item>@layout/text_item</item>
+    </array>
+    <array name="basic_info_concept">
+        <item>Concept</item>
+        <item>@layout/text_item</item>        
+    </array>
+    <array name="basic_info_virtue">
+        <item>Virtue</item>
+        <item>@layout/spinner_item</item>
+        <item>@array/virtues</item>
+    </array>
+    <array name="basic_info_vice">
+        <item>Vice</item>
+        <item>@layout/spinner_item</item>
+        <item>@array/vices</item>
+    </array>
+    <array name="basic_info_clan">
+        <item>Clan</item>
+        <item>@layout/spinner_item</item>
+        <item>@array/clans</item>
+    </array>
+    <array name="basic_info_covenant">
+        <item>Covenant</item>
+        <item>@layout/spinner_item</item>
+        <item>@array/covenants</item>
+    </array>
+    <array name="basic_info_coterie">
+        <item>Coterie</item>
+        <item>@layout/text_item</item>
+    </array>
+    
+    <string-array name="clans">
+        <item>Daeva</item>
+        <item>Gangrel</item>
+        <item>Mekhet</item>
+        <item>Nosferatu</item>
+        <item>Ventrue</item>        
+    </string-array>
+    
+    <string-array name="covenants">
+        <item>Carthian Movement</item>
+        <item>Circle of the Crone</item>
+        <item>Invictus</item>
+        <item>Lancea Sanctum</item>
+        <item>Ordo Dracul</item>
+    </string-array>
+    
+</resources>

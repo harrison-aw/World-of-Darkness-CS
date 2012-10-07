@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <array name="skills">
+        <item>@array/skills_mental</item>
+    </array>
+    <string name="skills_mental">Mental</string>
+    <string-array name="skills_mental">
+	    <item>Academics</item>
+	    <item>Computer</item>
+	    <item>Crafts</item>
+	    <item>Investigation</item>
+	    <item>Medicine</item>
+	    <item>Occult</item>
+	    <item>Politics</item>
+	    <item>Science</item>	    
+	</string-array>    
+</resources>

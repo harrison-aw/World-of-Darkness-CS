@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="attributes">
+        <item>@array/attributes_mental</item>
+        <item>@array/attributes_physical</item>
+        <item>@array/attributes_social</item>
+    </array>
+    <string name="attributes_mental">Mental</string>
+    <string-array name="attributes_mental">
+	    <item>Intelligence</item>
+	    <item>Wits</item>
+	    <item>Resolve</item>	    	    
+	</string-array>    
+	<string name="attributes_physical">Physical</string>
+    <string-array name="attributes_physical">
+	    <item>Strength</item>
+	    <item>Dexterity</item>
+	    <item>Stamina</item>	    	    
+	</string-array>  
+    <string name="attributes_social">Social</string>
+    <string-array name="attributes_social">
+	    <item>Presence</item>
+	    <item>Manipulation</item>
+	    <item>Composure</item>	    	    
+	</string-array>  
+</resources>

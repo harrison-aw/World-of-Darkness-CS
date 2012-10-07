@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">World of Darkness CS</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_discard"></string>
+    <string name="menu_add_character">Add Character</string>
+    <string name="menu_edit_character">Edit Character</string>
+    <string name="menu_discard_character">Discard Character</string>
+    <string name="title_activity_character_select">Character Select</string>
+    <string name="name">Name</string>
+    <string name="faction">Faction</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_faction_select">Choose Faction</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_basic_info">Basic Info</string>
+    <string name="title_activity_character_sheet">Character Sheet</string>
+    <string name="title_fragment_basic_info">Basic Info</string>
+    <string name="title_fragment_attributes">Attributes</string>
+    <string name="age">Age</string>
+    <string name="player">Player</string>
+    <string name="concept">Concept</string>
+    <string name="virtue">Virtue</string>
+    <string name="virtue_prompt">Choose Virtue</string>
+    <string name="vice">Vice</string>
+    <string name="vice_prompt">Choose Vice</string>
+    <string name="chronicle">Chronicle</string>
+    <string name="faction_prompt">Choose Faction</string>
+    <string name="group_name">Group Name</string>
+    <string name="mental">Mental</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="wits">Wits</string>
+    <string name="resolve">Resolve</string>
+    <string name="physical">Physical</string>
+    <string name="strength">Strength</string>
+    <string name="dexterity">Dexterity</string>
+    <string name="stamina">Stamina</string>
+    <string name="social">Social</string>
+    <string name="presence">Presence</string>
+    <string name="manipulation">Manipulation</string>
+    <string name="composure">Composure</string>
+
+</resources>

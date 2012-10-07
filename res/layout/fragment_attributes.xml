@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/attributes_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/attributes_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mental_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/mental"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/intelligence_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/intelligence"
+            android:layout_marginTop="14dp"
+            android:text="@string/intelligence"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/intelligence"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/mental_heading"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+        
+        <TextView
+            android:id="@+id/wits_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/wits"
+            android:layout_marginTop="14dp"
+            android:text="@string/wits"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/wits"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/intelligence"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+        
+      	<TextView
+            android:id="@+id/resolve_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/resolve"
+            android:layout_marginTop="14dp"
+            android:text="@string/resolve"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/resolve"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/wits"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/physical_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/resolve"
+            android:text="@string/physical"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/strength_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/strength"
+            android:layout_marginTop="14dp"
+            android:text="@string/strength"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/strength"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/physical_heading"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/dexterity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/dexterity"
+            android:layout_marginTop="14dp"
+            android:text="@string/dexterity"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/dexterity"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/strength"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/stamina_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/stamina"
+            android:layout_marginTop="14dp"
+            android:text="@string/stamina"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/stamina"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/dexterity"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+        
+        <TextView
+            android:id="@+id/social_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/stamina"
+            android:text="@string/social"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <TextView
+            android:id="@+id/presence_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/presence"
+            android:layout_marginTop="14dp"
+            android:text="@string/presence"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/presence"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/social_heading"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/manipulation_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/manipulation"
+            android:layout_marginTop="14dp"
+            android:text="@string/manipulation"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/manipulation"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/presence"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/composure_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/composure"
+            android:layout_marginTop="14dp"
+            android:text="@string/composure"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+            android:id="@+id/composure"
+            style="@style/WoDDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/manipulation"
+            android:max="5"
+            android:numStars="5"
+            android:stepSize="1.0" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

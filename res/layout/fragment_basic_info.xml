@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/basic_info_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/basic_info_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/age_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/player_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/player"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/concept_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/concept"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/concept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/virtue_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/virtue"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/virtue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/virtues"
+            android:prompt="@string/virtue_prompt"
+            tools:listitem="@android:layout/simple_spinner_item" />
+
+        <TextView
+            android:id="@+id/vice_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vice"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/vice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/vices"
+            android:prompt="@string/vice_prompt"
+            tools:listitem="@android:layout/simple_spinner_item" />
+
+        <TextView
+            android:id="@+id/chronicle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chronicle"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/chronicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/faction_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/faction"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/faction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/factions"
+            android:prompt="@string/faction_prompt"
+            tools:listitem="@android:layout/simple_spinner_item" />
+
+        <TextView
+            android:id="@+id/group_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/group_name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/group_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+</ScrollView>

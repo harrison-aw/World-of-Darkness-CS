@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string-array name="factions">
+        <item >Vampire</item>
+        <item >Sin-Eater</item>
+    </string-array>
+	<string-array name="virtues">
+		<item >Charity</item>
+		<item >Faith</item>
+		<item >Fortitude</item>
+		<item >Hope</item>
+		<item >Justice</item>
+		<item >Prudence</item>
+		<item >Temperance</item>
+	</string-array>
+	<string-array name="vices">
+	    <item >Envy</item>
+	    <item >Gluttony</item>
+	    <item >Greed</item>
+	    <item >Lust</item>
+	    <item >Pride</item>
+	    <item >Sloth</item>
+	    <item >Wrath</item>
+	</string-array>
+        
+</resources>

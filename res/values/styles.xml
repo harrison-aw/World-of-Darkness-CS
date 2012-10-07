@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="WoDDots" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/layerlist_wod_dot</item>
+        <item name="android:minHeight">36dip</item>
+        <item name="android:maxHeight">36dip</item>
+        <item name="android:paddingTop">12dip</item>        
+    </style>
+
+</resources>

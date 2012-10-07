@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_edit_character"        
+        android:title="@string/menu_edit_character"
+        android:titleCondensed="@string/menu_edit"
+        android:icon="@drawable/content_edit"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="100" />
+    
+    <item android:id="@+id/menu_discard_character"
+        android:title="@string/menu_discard_character"
+        android:titleCondensed="@string/menu_discard"
+        android:icon="@drawable/content_discard"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="101" />
+
+</menu>
